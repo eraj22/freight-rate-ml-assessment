@@ -1,0 +1,45 @@
+{
+  "training": {
+    "rows": 48000,
+    "columns": 14,
+    "duplicate_rows": 0,
+    "duplicate_load_ids": 0,
+    "date_min": "2025-01-01",
+    "date_max": "2025-10-31",
+    "missing_by_column": {
+      "weight": 300,
+      "market_index": 374
+    },
+    "negative_weight": 292
+  },
+  "validation": {
+    "rows": 12000,
+    "columns": 13,
+    "duplicate_rows": 0,
+    "duplicate_load_ids": 0,
+    "date_min": "2025-11-01",
+    "date_max": "2025-12-31",
+    "missing_by_column": {
+      "weight": 165,
+      "market_index": 249
+    },
+    "negative_weight": 145
+  },
+  "unseen_validation_cities": [
+    "Allentown",
+    "Charlotte",
+    "Chicago",
+    "Jackson",
+    "Knoxville",
+    "Laredo",
+    "Norfolk",
+    "San Diego"
+  ],
+  "unseen_validation_lane_count": 736,
+  "target": {
+    "mean": 2373.9806822916667,
+    "median": 2030.76,
+    "p99": 5972.834000000003,
+    "maximum": 25533.0
+  }
+}

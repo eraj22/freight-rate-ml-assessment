@@ -1,0 +1,37 @@
+{
+  "split": {
+    "training_period": "2025-01-01 to 2025-09-30",
+    "holdout_period": "2025-10-01 to 2025-10-31",
+    "training_rows": 43147,
+    "holdout_rows": 4853
+  },
+  "model": {
+    "mae": 123.25431519306551,
+    "rmse": 647.6186262975106,
+    "r2": 0.820495370490957,
+    "mape_pct": 5.676312652444141,
+    "median_absolute_error": 39.73217534826313,
+    "p90_absolute_error": 166.63568761928948
+  },
+  "baseline": {
+    "mae": 253.84794914953068,
+    "rmse": 695.0468801668737,
+    "r2": 0.7932406357697894,
+    "mape_pct": 11.811969846073948,
+    "median_absolute_error": 132.82360728744936,
+    "p90_absolute_error": 501.7638692307693
+  },
+  "mae_improvement_pct": 51.4456131688258,
+  "configuration": {
+    "target": "log1p(posted_rate)",
+    "algorithm": "three-seed CatBoost ensemble",
+    "iterations": 400,
+    "depth": 8,
+    "learning_rate": 0.07,
+    "seeds": [
+      42,
+      137,
+      2026
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "training_rows": 48000,
+  "validation_rows": 12000,
+  "december_rows": 31,
+  "model": "three-seed CatBoost ensemble on log1p(posted_rate)",
+  "seeds": [
+    42,
+    137,
+    2026
+  ]
+}
