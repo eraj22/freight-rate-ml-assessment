@@ -132,10 +132,6 @@ python scripts/generate_report.py
 
 The provided December scenario omits coordinates, market index, and quote signal. The pipeline maps Lexington and Fort Wayne to median labeled coordinates and uses the latest 30-day labeled medians for market index and quote signal. These values remain fixed, so only date changes across the chart.
 
-## Video walkthrough
-
-The camera-on Loom is submitted with the application. A timed 2-3 minute recording script is included at [loom_walkthrough_script.md](reports/loom_walkthrough_script.md).
-
 ## Limitations
 
 The labeled period ends in October 2025. Freight markets can shift with fuel, capacity, and seasonality. Monitor MAE and error by equipment and lane after actuals arrive, retrain when drift is material, and keep human review for exceptional loads outside the observed operating range.
